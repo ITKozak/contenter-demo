@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main divs styles */
+
+/* Top menu styles */
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 0 25%;
+}
+
+.header-logo {
+    justify-self: start;
+}
+
+.top-link:visited, .top-link:link {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* About section styles */
+.about-section {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 60px 25%;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.about-header {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.about-site {
+    width: 600px;
+}
+
+.signup-button {
+    border: #3882f8 solid 2px;
+    border-radius: 10px;
+    width: 50;
+    height: 30;
+    text-align: center;
+    padding: 5px;
+    color: #f9faf8;
+    background-color: #3882f8;
+}
+
+.signup-button:hover {
+    color:#e5e7eb;
+    background-color: #1f2937;
+    border: #e5e7eb solid 2px;
+}
+/* Information section styles */
+
+.information {
+    padding: 60px 25%;
+}
+
+.info-header {
+    text-align: center;
+}
+
+.info-points-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0;
+}
+
+.info-point {
+    border: 5px solid #3882f8;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+/* Quote section styles */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 60px 0;
+}
+
+.quotation {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0 25%;
+}
+
+.caption {
+    text-align: right;
+    margin: 0 25%;
+}
+/* Mail section styles */
+
+.mail {
+    margin: 60px 25%;
+    padding: 10px;
+    background-color: #3882f8;
+    border-radius: 10px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mail-text {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.mail-button {
+    border: #e5e7eb solid 2px;
+    border-radius: 10px;
+    width: 50;
+    height: 30;
+    text-align: center;
+    padding: 5px;
+    color: #f9faf8;
+    background-color: #3882f8;
+}
+
+.mail-button:hover {
+    color: #3882f8;
+    background-color: #f9faf8;
+}
+/* Footer section styles */
+footer {
+    background-color: #1f2937;
+    height: 70px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    margin: 0 25px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
