@@ -37,21 +37,24 @@
 .about-header {
     font-size: 48px;
     font-weight: 900;
+    margin: 20px 0;
 }
 
 .about-site {
     width: 600px;
+    margin: 20px 0;
 }
 
 .signup-button {
     border: #3882f8 solid 2px;
-    border-radius: 10px;
-    width: 50;
-    height: 30;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
     text-align: center;
     padding: 5px;
     color: #f9faf8;
     background-color: #3882f8;
+    margin: 20px 0;
 }
 
 .signup-button:hover {
@@ -76,8 +79,12 @@
 }
 
 .info-point {
+    text-align: center;
+}
+
+.info-image {
     border: 5px solid #3882f8;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 200px;
     width: 200px;
 }
@@ -99,12 +106,13 @@
 .caption {
     text-align: right;
     margin: 0 25%;
+    font-weight: 700;
 }
 /* Mail section styles */
 
 .mail {
     margin: 60px 25%;
-    padding: 10px;
+    padding: 45px;
     background-color: #3882f8;
     border-radius: 10px;
     color: #f9faf8;
@@ -121,12 +129,13 @@
 .mail-button {
     border: #e5e7eb solid 2px;
     border-radius: 10px;
-    width: 50;
-    height: 30;
+    width: 100px;
+    height: 30px;
     text-align: center;
     padding: 5px;
     color: #f9faf8;
     background-color: #3882f8;
+    margin: 0 50px;
 }
 
 .mail-button:hover {
